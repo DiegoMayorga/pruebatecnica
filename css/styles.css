@@ -1,0 +1,229 @@
+@media (min-width:320px) {}
+
+/* @media (min-width:614px) {*/
+
+html {
+    height: 100%;
+}
+body {
+    margin: 0;
+}
+
+.header {
+    background-color: #3a3632;
+    top: 0;
+    width: 100%;
+    padding: 10px 0;
+    position: absolute;
+}
+
+.oracle-title {
+    left: 30px;
+    position: relative;
+}
+
+.container {
+    top: 35px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 42px;
+    min-width: 514px;
+}
+
+.sec-header {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    font-family: Oracle Sans;
+    font-style: bold;
+    font-size: 22px;
+    gap: 30px;
+    padding: 30px 0;
+    align-items: center;
+    background-image: url(../assets/tbottom.png);
+    background-size: 1280px;
+    color: #FFF;
+    padding-left: 50px;
+    top: 49px;
+}
+
+.first-prg {
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 32px;
+    /* or 114% */
+    text-align: center;
+    /* UI Light / Content / Primary */
+    color: #161513;
+}
+
+.card {
+    position: absolute;
+    width: 530px;
+    /* height: 354px; */
+    background: #FFF;
+    /* Shadow / SM */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    /* Content Area, Teal */
+    /*height: 108px;*/
+    /* Teal / Teal 120 */
+    background: #3E686C;
+    display: contents;
+}
+
+.table {
+    border-spacing: 0;
+}
+
+.thead {
+    background-image: url(../assets/thead.png);
+    height: 108px;
+    background-size: 758px;
+}
+
+.head-lines {
+    font-family: Oracle Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height, or 125% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* Brand Dark / Brand Dark 50 */
+    color: #F0CC71;
+
+    padding: 16px 16px 4px;
+}
+
+.sub-lines {
+    font-family: Oracle Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 16px;
+    /* or 145% */
+    text-align: center;
+    /* Teal / Teal 10 */
+    color: #F8FAFA;
+
+    padding: 4px 16px 16px;
+}
+
+.tbody {
+    background-color: #FFF;
+}
+
+.icons {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 98;
+    height: 64px;
+    align-items: center;
+    /* Teal / Teal 90 */
+    color: #628F8D;
+
+    padding: 28px 0 24px;
+}
+
+.tfoot {
+    background-image: url(../assets/tbottom.png);
+    border-radius: 0 0 8px 8px;
+    background-size: 758px;
+}
+
+.caption {
+    font-family: Oracle Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 12px;
+    /* identical to box height, 
+or 150% */
+    text-align: center;
+    /* UI Light / Content / 
+Primary */
+    color: #161513;
+
+    padding-bottom: 32px;
+}
+
+.cta {
+    /* CTA */
+    /* Button */
+    width: 135px;
+    height: 44px;
+    /* Button / Solid / 02. Text Only / 02. MD 
+/ 01. Enabled */
+    /* Brand Dark / Brand Dark 50 */
+    background: #F0CC71;
+    border-radius: 4px;
+    /* Text */
+    /* Body / Semi Bold / Body Semi Bold SM */
+    font-family: Oracle Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13.75px;
+    line-height: 16px;
+    /* identical to box height, or 116% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* UI Light / Content / Primary */
+    color: #161513;
+
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.join {
+    text-align: center;
+    font-family: Georgia;
+    margin-top: 48px;
+    font-size: 20px;
+}
+
+.hear {
+    font-size: 12px;
+    text-align: center;
+    color: #00688c;
+}
+
+footer {
+    min-height: 70px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: #000;
+    color: #FFF;
+}
+
+.footer-cont {
+    margin: 20px 42px;
+    display: flex;
+    font-size: 11px;
+    font-family: Georgia;
+}
+
+.text-footer {
+    min-width: 470px;
+}
+
+.oracle {
+    left: 552px;
+    position: fixed;
+    bottom: 0;
+}
+
+/*}*/
